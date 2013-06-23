@@ -50,3 +50,9 @@ httpd.conf:
 		Options ExecCGI
 		require valid-user
 	</Directory>
+
+thanks
+======
+
+Thanks to Daniel Hartmeier for releasing the undeadly code years ago.
+
