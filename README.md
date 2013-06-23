@@ -24,9 +24,11 @@ config
 ======
 
 Extract a keytab for mod_auth_kerb
+
 	ktutil ext -k /var/www/conf/httpd.keytab http/yourdomainname.com@YOURREALM.COM
 
 httpd.conf:
+
 	<Directory "/var/www/htdocs/chpass">
 		AuthType kerberos
 		AuthName "Kerberos username and password"
