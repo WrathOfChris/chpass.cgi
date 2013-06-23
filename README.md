@@ -20,8 +20,14 @@ install
 	make
 	sudo make install
 
+then copy into apache directory:
+
+	sudo cp -PRp /usr/local/share/chpass /var/www/htdocs/
+
 config
 ======
+
+Customize front.html and success.html as desired.
 
 Extract a keytab for mod_auth_kerb
 
